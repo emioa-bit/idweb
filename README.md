@@ -2,4 +2,4 @@
 ## Profesor
 - Richard Escobedo
 ## Alumno
--Edu Breyner Mio Alviz (grupo de teoria c)
+- Edu Breyner Mio Alviz (grupo de teoria c)
