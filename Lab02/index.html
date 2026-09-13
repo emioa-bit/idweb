@@ -15,7 +15,12 @@
     <legend>Información Personal</legend>
 
     <label for="codigo">Código de estudiante:</label>
-    <input type="text" id="codigo" name="codigo">
+<input type="text"
+       id="codigo"
+       name="codigo"
+       pattern="[0-9]{8}"
+       required
+       title="El código debe tener exactamente 8 dígitos">
 
     <br><br>
 
