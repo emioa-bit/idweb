@@ -11,7 +11,52 @@
     <h1>Registro de Estudiantes</h1>
 
     <form action="#" method="POST">
+<fieldset>
+    <legend>Información Personal</legend>
 
+    <label for="codigo">Código de estudiante:</label>
+    <input type="text" id="codigo" name="codigo">
+
+    <br><br>
+
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre">
+
+    <br><br>
+
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="date" id="fecha" name="fecha">
+
+    <br><br>
+
+    <label for="carrera">Carrera Profesional:</label>
+    <select id="carrera" name="carrera">
+        <option value="">Seleccione una carrera</option>
+        <option value="sistemas">Ingeniería de Sistemas</option>
+        <option value="civil">Ingeniería Civil</option>
+        <option value="industrial">Ingeniería Industrial</option>
+    </select>
+
+    <br><br>
+
+    <p>Turno:</p>
+
+    <label>
+        <input type="radio" name="turno" value="manana">
+        Mañana
+    </label>
+
+    <label>
+        <input type="radio" name="turno" value="tarde">
+        Tarde
+    </label>
+
+    <label>
+        <input type="radio" name="turno" value="noche">
+        Noche
+    </label>
+
+</fieldset>
     </form>
 
 </body>
