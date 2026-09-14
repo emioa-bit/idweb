@@ -27,5 +27,5 @@ Este repositorio contiene los ejercicios y programas correspondientes al **Labor
 
 ---
 
-> **UNSA – Ingeniería de Sistemas**  
-> **2026**
+                          > **UNSA – Ingeniería de Sistemas**  
+                                     > **2026**
