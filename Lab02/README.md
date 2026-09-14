@@ -11,8 +11,7 @@
 -  Dominar la sintaxis de CSS3, selectores, especificidad y la regla de cascada.
 -  Aplicar el Modelo de Caja (Box Model) y la propiedad box-sizing: border-box para el control dimensional preciso de la interfaz.
 
-![El modelo caja - elementos](css-box-sizing-layout.png)
-![El modelo caja - ejemplo](CSS-Box-Model.png)
+
   
 ## Rúbrica de calificación[^1]
 | ítem | Descripción | Puntaje |
