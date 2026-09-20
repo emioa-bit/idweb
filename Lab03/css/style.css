@@ -1,1 +1,124 @@
+/* ================================
+   ESTILOS GENERALES
+   ================================ */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================================
+   HERO - FLEXBOX
+   ================================ */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 5%;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/* ================================
+   CURSOS - CSS GRID
+   ================================ */
+
+.card-grid {
+    display: grid;
+
+    /* Una columna en móviles */
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+}
+
+.card-grid .card {
+    height: 100%;
+}
+
+
+/* ================================
+   TABLETS
+   ================================ */
+
+@media (min-width: 576px) {
+
+    .card-grid {
+        /* Dos columnas */
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* ================================
+   ESCRITORIO
+   ================================ */
+
+@media (min-width: 992px) {
+
+    .hero {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-text {
+        width: 50%;
+        text-align: left;
+    }
+
+    .hero-image {
+        width: 45%;
+    }
+
+    .card-grid {
+        /* Tres columnas */
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+/* ================================
+   PANTALLAS GRANDES
+   ================================ */
+
+@media (min-width: 1200px) {
+
+    .card-grid {
+        /* Cuatro columnas */
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
