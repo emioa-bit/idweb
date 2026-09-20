@@ -1,5 +1,5 @@
 # Introduccion al desarrollo web
 ## Profesor
-- Richard Escobedo
+- Richart Escobedo
 ## Alumno
 - Edu Breyner Mio Alviz (grupo de teoria c)
