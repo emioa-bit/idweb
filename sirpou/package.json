@@ -1,0 +1,21 @@
+{
+  "name": "sirpou",
+  "version": "1.0.0",
+  "description": "SIRPOU es un sistema web diseñado para facilitar la búsqueda y recuperación de objetos perdidos dentro del entorno universitario. Permite registrar objetos extraviados, publicar objetos encontrados y facilitar su identificación y devolución a sus propietarios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0"
+  }
+}

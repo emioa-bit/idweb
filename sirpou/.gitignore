@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Permitir una plantilla sin secretos
+!.env.example
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Registros
+*.log
+npm-debug.log*
+
+# Archivos temporales
+coverage/
