@@ -1,11 +1,12 @@
 require('dotenv').config(); // leemos la variables de .env
+const authRoutes = require('./routes/authRoutes');
 const express = require('express'); // importamos express
 const path = require('path'); // usamos el módulo nativo de rutas
 
 const app = express(); // creamos la instancia de la aplicación en la constante 'app'
 const PORT = process.env.PORT || 3000; // usamos el puerto predefinido
 app.use(express.json()); // permitimos acceso a los datos mediante req.body
-
+app.use('/api/auth', authRoutes);
 app.use((req, res, next) => { // hacemos cálculo del tiempo de ejecución y obtenemos el código de respuesta
     const inicio = Date.now();
     res.on('finish', () => {
